@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+    <link type="text/css" rel="stylesheet" media="all" href="css/style.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+    <h2>Articles</h2>
+    <div id="articles">
+        <p><input type="text" id="search_article" placeholder="search ..."></p>
+        <ul id="article_list">
+            <script type="text/template" id="article_template">
+                <li class="article">
+                    <div class="article_title"><%= obj.title %></div>
+                    <div class="article_body"><%= obj.content %></div>
+                </li>
+            </script>
+        </ul>
+</div>
+
+    <script type="text/javascript" src="js/underscore.js"></script>
+    <script type="text/javascript" src="js/backbone.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
