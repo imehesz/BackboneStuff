@@ -15,13 +15,30 @@ Released for free under a Creative Commons Attribution 2.5 License
 .gallery li { float: left; width: 33.33333333%; }
 .gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
 .gallery li img { display: block; width: 100%; height: auto; }
-
 .copyright {
 text-align: center;
 font-size: 11px;
 }
 
 /************ end of jquery mobile ********************/
+
+img.full-size{
+    width: 100%;
+    height: auto;
+}
+
+img.half-size{
+    width: 50%;
+    height: auto;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.pad5{
+    padding: 5px;
+}
 
 .article_body{
     display: none; 

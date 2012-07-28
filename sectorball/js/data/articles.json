@@ -15,6 +15,12 @@
         "sortid": 0,
         "title": "Játékosok helyezése",
         "published": true,
-        "content": "<ul><li>kezdéskor és gól után a saját térfélen tetszőlegesen helyezhetők el</li><li>az egész pályán helyezhetők, ha támadó térfélen lévő labda került az alapvonalon túlra (kirúgás)</li><li>egyéb esetben a játékosok nem helyezhetők</li><li>pontrúgások esetén kézzel bármely saját játékost el lehet venni és azzal a rúgást elvégezni</li></ul>"
+        "content": "<ul><li><strong>kezdéskor</strong> és <strong>gól után</strong> a saját térfélen tetszőlegesen helyezhetők el</li><li>az <strong>egész pályán</strong> helyezhetők, ha támadó térfélen lévő labda került az alapvonalon túlra (kirúgás)</li><li>egyéb esetben a játékosok nem helyezhetők</li><li><strong>pontrúgások esetén</strong> kézzel bármely saját játékost el lehet venni és azzal a rúgást elvégezni</li></ul><div class='align-center pad5'><img class='half-size' src='js/data/images/img001.jpg'></div>"
+    },
+    {
+        "sortid": 0,
+        "title": "A kapus mozgatása",
+        "published": true,
+        "content": "<ul><li>a kapusnak az <strong>ötösön belül</strong> kell tartózkodnia</li><li>a kapus csak akkor avatkozhat játékba, ha a labda a tizenhatoson belül van vagy éri a tizenhatos vonalát</li></ul>"
     }
 ]

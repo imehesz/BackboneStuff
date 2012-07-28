@@ -65,7 +65,8 @@ $(document).ready(function(){
                     title = item.get('title'),
                     content = item.get('content');
                 
-                if( title.indexOf( letters ) > -1 || content.indexOf( letters ) > -1 )
+                // TODO maybe use REGEXP for search, but it's probably slower!
+                if( title.toLowerCase().indexOf( letters.toLowerCase() ) > -1 || content.toLowerCase().indexOf( letters.toLowerCase ) > -1 )
                 {
                     models.push( item )
                 }            
@@ -93,6 +94,7 @@ $(document).ready(function(){
             if( articles.length == 0 )
             {
                 $("#article_list").html("No results found :/");
+                return this;
             }
             else
             {
@@ -107,6 +109,12 @@ $(document).ready(function(){
                 });
                 $("#article_list").append(view.render().el);
             });
+
+            // if we only have 1 result, we show it in full glory
+            if( articles.length == 1 )
+            {
+                $('.article_body').show();
+            }
             return this;
         },    
         render: function(){
@@ -126,7 +134,7 @@ $(document).ready(function(){
         
         searchArticle: function(){ 
                 var letters = $("#search_article").val();
-                if( letters.length > 0 )
+                if( letters.length > 2 )
                 {                
                     this.renderList(this.model.search(letters));                
                 }
