@@ -1,14 +1,20 @@
 [
     {
         "sortid": 0,
-        "title": "Lorem Ipsum",
+        "title": "Játékidő",
         "published": true,
-        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "content": "2-szer 13 perc"
     },
     {
         "sortid": 0,
-        "title": "Sed It Perspiciatis",
+        "title": "Szektor",
         "published": true,
-        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        "content": "<strong>Szektor:</strong> egy adott távolság a játékosok körül. Szektormérővel mérjük."
+    },
+    {
+        "sortid": 0,
+        "title": "Játékosok helyezése",
+        "published": true,
+        "content": "<ul><li>kezdéskor és gól után a saját térfélen tetszőlegesen helyezhetők el</li><li>az egész pályán helyezhetők, ha támadó térfélen lévő labda került az alapvonalon túlra (kirúgás)</li><li>egyéb esetben a játékosok nem helyezhetők</li><li>pontrúgások esetén kézzel bármely saját játékost el lehet venni és azzal a rúgást elvégezni</li></ul>"
     }
 ]
