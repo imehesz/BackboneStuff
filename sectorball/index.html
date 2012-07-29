@@ -11,30 +11,44 @@
 </head>
 <body>
     <div data-role="page">
+        <a name="topa"></a>
         <div data-role="header" id="header">
-            <h1>Sectorball</h1>
+            <h1>Gombfoci</h1>
         </div>
 
         <div data-role="content">
             <div id="articles">
                 <p>
-                    <input type="text" id="search_article" placeholder="search ...">
+                    <input type="text" id="search_article" placeholder="keress ...">
                 </p>
-                <ul id="article_list" data-role="listview" data-inset="true" data-theme="a" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
+                <ul id="article_list" data-theme="c" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
                     <script type="text/template" id="article_template">
-                        <li class="article" data-theme="a">
-                            <div class="article_title ui-btn ui-btn-icon-left ui-btn-corner-all ui-shadow ui-btn-up-a"><%= obj.title %></div>
+                        <li class="article " data-theme="b">
+                            <div class="ui-btn ui-li ui-corner-all ui-btn-up-a">
+                                <div class="article_title ui-btn-text ui-btn-inner ui-li ">
+                                    <a href="javascript:void(0);" class="ui-link-inherit"><%= obj.title %></a>
+                                </div>
+                            </div>
                             <div class="article_body ui-body ui-body-b"><%= obj.content %></div>
+                            <div style="clear:both"></div>
                         </li>
                     </script>
                 </ul>
             </div>
-        </div>
-    </div>
+        </div> <!-- content -->
+
+        <div data-role="footer" data-theme="a">
+            <div class="ui-bar">
+                <a href="#top" data-role="button" data-icon="arrow-u" data-theme="a" style="float:right;" class="returnTopAction">Fel</a>             
+            </div>
+        </div> <!-- footer -->
+
+    </div><!-- page -->
 
     <script type="text/javascript" src="js/jquery.mobile-1.1.1.min.js"></script>
     <!-- <script type="text/javascript" src="js/code.photoswipe.jquery-3.0.4.min.js"></script> -->
 
+    <script type="text/javascript" src="js/custom.js"></script>
     <script type="text/javascript" src="js/underscore.js"></script>
     <script type="text/javascript" src="js/backbone.js"></script>
     <script type="text/javascript" src="js/app.js"></script>

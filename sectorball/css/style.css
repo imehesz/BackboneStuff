@@ -22,6 +22,12 @@ font-size: 11px;
 
 /************ end of jquery mobile ********************/
 
+.ui-shadow {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 img.full-size{
     width: 100%;
     height: auto;
@@ -42,6 +48,8 @@ img.half-size{
 
 .article_body{
     display: none; 
+    width: 95%;
+    float: right;
 }
 
 .no-results{
