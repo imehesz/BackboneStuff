@@ -66,7 +66,7 @@ $(document).ready(function(){
                     content = item.get('content');
                 
                 // TODO maybe use REGEXP for search, but it's probably slower!
-                if( title.toLowerCase().indexOf( letters.toLowerCase() ) > -1 || content.toLowerCase().indexOf( letters.toLowerCase ) > -1 )
+                if( title.toLowerCase().indexOf( letters.toLowerCase() ) > -1 || content.toLowerCase().indexOf( letters.toLowerCase() ) > -1 )
                 {
                     models.push( item )
                 }            

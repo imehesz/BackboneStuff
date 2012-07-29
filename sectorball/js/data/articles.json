@@ -1,6 +1,12 @@
 [
     {
         "sortid": 0,
+        "title": "Asztal",
+        "published": true,
+        "content": "<ul><li><strong>diák versenyekre:</strong> 135x105 cm</li><li><strong>felnőtt versenyekre:</strong> 120x180 cm</li></ul><div class='align-center pad5'><img class='full-size' src='js/data/images/img002.png'></div>"
+    },
+    {
+        "sortid": 0,
         "title": "Játékidő",
         "published": true,
         "content": "2-szer 13 perc"
@@ -22,5 +28,29 @@
         "title": "A kapus mozgatása",
         "published": true,
         "content": "<ul><li>a kapusnak az <strong>ötösön belül</strong> kell tartózkodnia</li><li>a kapus csak akkor avatkozhat játékba, ha a labda a tizenhatoson belül van vagy éri a tizenhatos vonalát</li></ul>"
+    },
+    {
+        "sortid": 0,
+        "title": "Kapura lövés",
+        "published": true,
+        "content": "<ul><li>kapura lőni csak akkor lehet, ha <strong>a labda teljes terjedelmével</strong> a támadó térfélen van</li><li>a kapura lövést <strong>jelezni kell</strong> és a védekező fél a kapusát az ötösön belül tetszőlegesen helyezheti, majd helyezése után engedélyt ad a lövésre.</li></ul>"
+    },
+    {
+        "sortid": 0,
+        "title": "A játéktéren kívülre került játékosok visszatérése",
+        "published": true,
+        "content": "<ul><li>ha a j&aacute;t&eacute;kos kics&uacute;szik a p&aacute;ly&aacute;r&oacute;l, csak egy l&eacute;p&eacute;sk&eacute;nt t&eacute;rhet vissza &uacute;gy, hogy a vonalig merőlegesen be lehet tolni</li><li>kint l&eacute;vő j&aacute;t&eacute;kos g&oacute;lt nem lőhet, de k&ouml;zels&eacute;get adhat &eacute;s kaphat</li></ul>"
+    },
+    {
+        "sortid": 0,
+        "title": "Közelségi szabály",
+        "published": true,
+        "content": "<ul><li>a k&ouml;zels&eacute;gi szab&aacute;ly a j&aacute;t&eacute;k &eacute;rdekess&eacute;g&eacute;t n&ouml;veli, mivel egym&aacute;s ut&aacute;n annyiszor mozdulhatunk, ak&aacute;rh&aacute;nyszor k&ouml;zels&eacute;get tudunk tenni saj&aacute;t j&aacute;t&eacute;kosunknak</li><li><strong>ha nem siker&uuml;l</strong> a saj&aacute;t j&aacute;t&eacute;kosnak k&ouml;zels&eacute;get adni, akkor az ellenf&eacute;l k&ouml;vetkezik l&eacute;p&eacute;sre. Elősz&ouml;r b&aacute;rmelyi j&aacute;t&eacute;kos&aacute;val l&eacute;phet, de ut&aacute;na m&aacute;r csak azzal a j&aacute;t&eacute;kossal, amely k&ouml;zels&eacute;get kapott.</li><li><strong>vigy&aacute;zni kell arra</strong>, hogy az &aacute;tad&oacute; j&aacute;t&eacute;kos saj&aacute;t mag&aacute;nak nem adhat k&ouml;zels&eacute;get</li><li>k&ouml;zels&eacute;g sz&aacute;m&iacute;t abban az esetben is, ha a labda egy m&aacute;sik j&aacute;t&eacute;kosr&oacute;l pattant el&eacute;.</li></ul>"
+    },
+    {
+        "sortid": 0, 
+        "title": "Pálya karbantartása",
+        "published": true,
+        "content": "a pálya a játék során (főleg izzadt, zsíros kezektől) elszennyeződhet, ezért célszerű időnként letörölni. A jobb csúszás érdekében <strong>hintőporral</strong> való törlés megengedett."
     }
 ]
